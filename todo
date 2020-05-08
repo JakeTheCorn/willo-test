@@ -5,3 +5,4 @@ logging/monitoring... with better logging monitoring could be improved
 Env vars for port, other configs
 Prod server, not dev server
 Find more appropriate, descriptive error codes
+aggregate unit test running
