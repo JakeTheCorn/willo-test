@@ -1,7 +1,7 @@
 import unittest
 from pass_through import pass_through
 
-class Test(unittest.TestCase):
+class PassThroughTest(unittest.TestCase):
   def test_body_type(self):
     _data, err = pass_through(
       privacy_setting='private',
@@ -69,5 +69,5 @@ class Test(unittest.TestCase):
     self.assertEqual(data, body)
     self.assertIsInstance(err, Warning)
 
-
-unittest.main()
+if __name__ == '__main__':
+  unittest.main()
