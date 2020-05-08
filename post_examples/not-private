@@ -1,0 +1,4 @@
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"privacy_setting":"not-private","body": { "user_id": 3, "first_name": "a", "last_name": "b", "email": "a@a.com" }, "output_format": "json"}' \
+  http://localhost:5000/provision

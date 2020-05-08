@@ -1,0 +1,4 @@
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"privacy_setting":"partial","body": { "user_id": 2, "first_name": "bill" }, "output_format": "flat"}' \
+  http://localhost:5000/provision

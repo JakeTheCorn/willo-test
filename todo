@@ -1,0 +1,7 @@
+integration tests for endpoint
+email validation , probably via package install
+proper presentation layer (its just json, but could use its own class/functions to dry callers, etc)
+logging/monitoring... with better logging monitoring could be improved
+Env vars for port, other configs
+Prod server, not dev server
+Find more appropriate, descriptive error codes
